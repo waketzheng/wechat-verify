@@ -1,1 +1,1 @@
-gunicorn -b 10240 app:app
+gunicorn --daemon -b 10240 app:app
