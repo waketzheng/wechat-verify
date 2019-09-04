@@ -14,7 +14,7 @@ pipenv shell
 ## Nginx配置
 
 ```
-location ~ MP_verify_[a-zA-Z]*\.txt$ {
+location ~ MP_verify_[a-zA-Z0-9]*\.txt$ {
     proxy_pass http://127.0.0.1:10240;
 }
 ```
