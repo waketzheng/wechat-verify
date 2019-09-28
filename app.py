@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 
 @app.route('/MP_verify_<identifier>.txt')
-@app.route('/<path:foo>/MP_verify_<identifier>.txt')
-def response_identifier(identifier, foo=''):
+@app.route('/<path:pre_path>/MP_verify_<identifier>.txt')
+def response_identifier(identifier, pre_path=''):
     return identifier
 
 if __name__ == '__main__':
