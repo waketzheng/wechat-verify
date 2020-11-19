@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from fastapi import FastAPI
+from fastapi.responses import RedirectResponse
 
 app = FastAPI()
 
@@ -8,6 +9,11 @@ app = FastAPI()
 @app.get('/{pre_path:path}/MP_verify_{identifier}.txt')
 async def response_identifier(identifier: str, pre_path: str=''):
     return identifier
+
+
+@app.get('/')
+async def to_chairong():
+    return RedirectResponse("/chairong/dist")
 
 
 if __name__ == '__main__':
