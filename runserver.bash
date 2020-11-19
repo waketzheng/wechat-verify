@@ -1,1 +1,1 @@
-gunicorn  main:app -k uvicorn.workers.UvicornWorker -b :10240 --daemon 
+gunicorn  main:app -k uvicorn.workers.UvicornWorker -b :10240 --daemon  --reload
