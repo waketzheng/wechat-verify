@@ -6,8 +6,8 @@
 ```bash
 git clone https://github.com/waketzheng/wechat-verify
 cd wechat-verify
-pipenv install
-pipenv shell
+poetry shell
+poetry install
 ./runserver.bash
 ```
 
