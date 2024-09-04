@@ -4,11 +4,11 @@
 ## 启动服务
 
 ```bash
-git clone https://github.com/waketzheng/wechat-verify
+git clone git@github.com:waketzheng/wechat-verify.git
 cd wechat-verify
 poetry shell
 poetry install
-./runserver.bash
+./runserver.sh
 ```
 
 ## Nginx配置
