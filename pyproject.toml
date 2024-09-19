@@ -6,7 +6,7 @@ authors = ["Waket Zheng <waketzheng@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-fastapi = "^0.112.2"
+fastapi = "^0.115.0"
 gunicorn = "^23.0.0"
 uvicorn = "^0.30.6"
 uvloop = "^0.20.0"
