@@ -10,7 +10,7 @@ fastapi = "^0.115.0"
 gunicorn = "^23.0.0"
 uvicorn = "^0.30.6"
 uvloop = "^0.20.0"
-httptools = "^0.6.1"
+httptools = "^0.6.4"
 fastapi-cdn-host = "^0.7.6"
 
 [tool.poetry.dev-dependencies]
