@@ -259,13 +259,13 @@ standard = ["email-validator (>=2.0.0)", "fastapi-cli[standard] (>=0.0.5)", "htt
 
 [[package]]
 name = "fastapi-cdn-host"
-version = "0.7.6"
+version = "0.8.2"
 description = "Auto choose the fastest cdn host for fastapi project docs."
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "fastapi_cdn_host-0.7.6-py3-none-any.whl", hash = "sha256:76c3341989fa6e36c16ab10649693d28ee84aebcac483b42f12035e026863ac0"},
-    {file = "fastapi_cdn_host-0.7.6.tar.gz", hash = "sha256:2ba9e01efada4c70960c5de5ec1ea6d92b55cbfaf718b33069e76e1f3c02b66e"},
+    {file = "fastapi_cdn_host-0.8.2-py3-none-any.whl", hash = "sha256:3882f10fef50c9bf91100e7efaa2da0e2799c1ae2695e9717b85a060c3ab80b8"},
+    {file = "fastapi_cdn_host-0.8.2.tar.gz", hash = "sha256:12d176381a83484cd5117fa948608093a3dd593a51ad57edb6de75fba36b9f47"},
 ]
 
 [package.dependencies]
@@ -1184,4 +1184,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "735228b07dfe2847d5666b0493fefc5d6bf306c42c7c6e0c1d1c96c7943a06c6"
+content-hash = "1d89b677c0431dde881d6b7c0a719b455c5a086b05c97a436528f75ed8bfb257"
